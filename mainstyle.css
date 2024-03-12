@@ -1,0 +1,64 @@
+
+h1{
+	background-color: #fc5858;
+	text-shadow: 1px 1px #dddddd;
+}
+
+div.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #fc5858;
+}
+
+div.menu ul li{
+	float: left;
+}
+
+div.menu ul li a{
+	display: block;
+	color: black;
+	text-shadow: 1px 1px #dddddd;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+div.menu ul li a:hover:not(.active){
+	background-color: #ffff80;
+}
+
+a.active{
+	background-color: #c94242;
+}
+
+a.link{
+	color: darkblue;
+}
+
+a:hover{
+	color: blue;
+}
+
+div.biggerFont{
+	font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 3px solid black;
+}
+
+th{
+	background-color: #dddddd;
+}
+
+body{
+	margin: 0px;
+	font-family: Arial;
+}
