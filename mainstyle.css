@@ -1,6 +1,7 @@
 
 h1{
-	color: #CBEDD5;
+	color: #f7edce;
+	text-shadow: #f5db68;
 }
 
 .title {
@@ -20,7 +21,7 @@ div.menu ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #62B6B7;
+	background-color: #4ba0ac;
 }
 
 div.menu ul li{
@@ -29,7 +30,8 @@ div.menu ul li{
 
 div.menu ul li a{
 	display: block;
-	color: #CBEDD5;
+	color: #f7edce;
+	text-shadow: #f5db68;
 	font-weight: bold;
 	text-align: center;
 	padding: 14px 16px;
@@ -37,13 +39,15 @@ div.menu ul li a{
 }
 
 div.menu ul li a:hover:not(.active){
-	background-color: #CBEDD5;
-	color: #62B6B7;
+	background-color: #f7edce;
+	color: #4ba0ac;
+	text-shadow: #65f0fd;
 }
 
 a.active{
-	background-color: #62B6B7;
-	color: #CBEDD5;
+	background-color: #4ba0ac;
+	color: #f7edce;
+	text-shadow: #f5db68;
 }
 
 a.link{
