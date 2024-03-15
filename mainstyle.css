@@ -1,27 +1,25 @@
-
 h1{
-	color: #f7edce;
-	text-shadow: #f5db68;
+	color: black;
+}
+
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(152,218,212,1) 0%, rgba(84,194,184,1) 100%);
 }
 
 .title {
 	display: grid;
 	align-items: center; 
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 5px;
-   }
-   
-   .logo {
-	 max-width: 100%;
-	 max-height:100%;
-   }
+	justify-items: left;
+	grid-template-columns: 1fr 4fr 6fr;
+}
 
 div.menu ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #4ba0ac;
+	background-color: #54c2b8;
 }
 
 div.menu ul li{
@@ -30,7 +28,7 @@ div.menu ul li{
 
 div.menu ul li a{
 	display: block;
-	color: #f7edce;
+	color: black;
 	text-shadow: #f5db68;
 	font-weight: bold;
 	text-align: center;
@@ -38,16 +36,8 @@ div.menu ul li a{
 	text-decoration: none;
 }
 
-div.menu ul li a:hover:not(.active){
-	background-color: #f7edce;
-	color: #4ba0ac;
-	text-shadow: #65f0fd;
-}
-
-a.active{
-	background-color: #4ba0ac;
-	color: #f7edce;
-	text-shadow: #f5db68;
+div.menu ul li a:hover{
+	text-decoration: underline;
 }
 
 a.link{
@@ -76,5 +66,22 @@ th{
 
 body{
 	margin: 0px;
-	font-family: Arial;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Trebuchet MS';
+}
+
+.frame {
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+}
+
+.end_bar {
+	background-color: #54c2b8;
+	padding: 15px;
+	align-items: center;
+}
+
+.logo {
+	padding-right: 8px;
 }
