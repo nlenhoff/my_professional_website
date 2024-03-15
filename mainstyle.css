@@ -76,7 +76,7 @@ body{
 	grid-template-columns: 1fr 8fr;
 }
 
-.end_bar {
+footer {
 	background-color: #54c2b8;
 	padding: 15px;
 	align-items: center;
